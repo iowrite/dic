@@ -1,5 +1,5 @@
 # dic
-this is command line tool using [youdao web](https://www.youdao.com/) api.
+This is a command line tool using [youdao web](https://www.youdao.com/) API.
 
 ## usage 
 
