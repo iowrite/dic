@@ -1,5 +1,5 @@
 # dic
-This is a command line tool using [youdao web](https://www.youdao.com/) API.
+This is a command line dictionary(English to Chinese only) using [youdao web](https://www.youdao.com/) API.
 
 ## usage 
 
