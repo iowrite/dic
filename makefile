@@ -9,3 +9,9 @@ build/parse_html: source/parse_html.c
 
 clean:
 	rm  -r build
+
+install:
+	sudo cp build/get_html          /usr/bin
+	sudo cp build/parse_html        /usr/bin
+	sudo cp source/dic              /usr/bin
+	sudo cp source/dic_uninstall    /usr/bin

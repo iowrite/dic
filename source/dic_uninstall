@@ -1,0 +1,6 @@
+#!/bin/bash
+
+sudo rm  /usr/bin/get_html
+sudo rm  /usr/bin/parse_html
+sudo rm  /usr/bin/dic
+sudo rm  /usr/bin/dic_uninstall
