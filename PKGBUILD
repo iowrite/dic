@@ -1,18 +1,18 @@
-# Maintainer: Your Name <your.email@example.com>
+# Maintainer: hewo <iowrite@icloud.com>
 pkgname=dic
 pkgver=1.0.2
 pkgrel=1
-pkgdesc="A simple translation tool"
+pkgdesc="A command line translate tool useing youdao web api"
 arch=('x86_64')
 depends=('glibc' 'curl' 'libxml2' 'zlib')
 makedepends=('gcc' 'make')
 source=("git+https://github.com/iowrite/dic.git")
-sha256sums=('SKIP') # 你可以在这里填写实际的校验和
+sha256sums=('SKIP') 
 
 build() {
     cd "$srcdir/dic"
     make
-}
+} 
 
 package() {
     cd "$srcdir/dic/"
