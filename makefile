@@ -1,17 +1,11 @@
-all: build/get_html build/parse_html build
-
-CFLAGS = `xml2-config --cflags`
-LDFLAGS = `xml2-config --libs`
+all: build build/get_html build/parse_html
 
 build:
 	mkdir -p build
-
-build/get_html: build source/fetch_youdao.c
+build/get_html: source/fetch_youdao.c
 	gcc source/fetch_youdao.c -o build/get_html -lcurl -lz
-build/parse_html: build source/parse_html.c
-	gcc $(CFLAGS) source/parse_html.c -o build/parse_html  $(LDFLAGS)
-
-
+build/parse_html: source/parse_html.c
+	gcc -I/usr/include/libxml2 source/parse_html.c -o build/parse_html  -lxml2 -lz -llzma -licui18n -licuuc -licudata -lm
 
 clean:
 	rm  -r build
