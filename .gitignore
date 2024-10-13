@@ -4,6 +4,6 @@ build/
 .vscode/
 dic/
 src/
-dic-1.0.0-1-x86_64.pkg.tar.zst
-dic-debug-1.0.0-1-x86_64.pkg.tar.zst
+*.zst
+*.zst
 pkg/
