@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# 检查是否提供了参数
+if [ -z "$1" ]; then
+    echo "Error: No argument provided."
+    echo "Usage: dic <argument>"
+    exit 1
+fi
+
+echo ""
+echo "======="
+echo "< $1 >"
+echo "======="
+
+# 使用提供的参数调用 get_html 脚本
+/home/hewo/Projects/translate/get_html "$1"
+
+# 调用 parse_html 脚本
+/home/hewo/Projects/translate/parse_html
