@@ -15,7 +15,8 @@ build() {
 }
 
 package() {
-    cd "$srcdir/translate-$pkgver"
+    cd "$srcdir/dic/"
+    install -Dm755 source/dic "$pkgdir/usr/bin/dic"
     install -Dm755 build/get_html "$pkgdir/usr/bin/get_html"
     install -Dm755 build/parse_html "$pkgdir/usr/bin/parse_html"
 }

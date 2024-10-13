@@ -13,7 +13,7 @@ echo "< $1 >"
 echo "======="
 
 # 使用提供的参数调用 get_html 脚本
-/home/hewo/Projects/translate/get_html "$1"
+get_html "$1"
 
 # 调用 parse_html 脚本
-/home/hewo/Projects/translate/parse_html
+parse_html
