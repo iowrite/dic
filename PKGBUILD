@@ -1,6 +1,6 @@
 # Maintainer: Your Name <your.email@example.com>
 pkgname=dic
-pkgver=1.0.1
+pkgver=1.0.2
 pkgrel=1
 pkgdesc="A simple translation tool"
 arch=('x86_64')
