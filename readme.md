@@ -1,7 +1,7 @@
 # dic
-this is command line tool useing youdao web [youdao web](https://www.youdao.com/) api.
+this is command line tool using [youdao web](https://www.youdao.com/) api.
 
-## useage 
+## usage 
 
 `dic word`
 
