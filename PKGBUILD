@@ -1,18 +1,16 @@
 # Maintainer: Your Name <your.email@example.com>
-pkgname=translate
+pkgname=dic
 pkgver=1.0.0
 pkgrel=1
 pkgdesc="A simple translation tool"
 arch=('x86_64')
-url="https://github.com/yourusername/translate"
-license=('GPL3')
 depends=('glibc' 'curl' 'libxml2' 'zlib')
 makedepends=('gcc' 'make')
-source=("translate-$pkgver.tar.gz::https://github.com/yourusername/translate/archive/v$pkgver.tar.gz")
+source=("git+https://github.com/iowrite/dic.git")
 sha256sums=('SKIP') # 你可以在这里填写实际的校验和
 
 build() {
-    cd "$srcdir/translate-$pkgver"
+    cd "$srcdir/dic"
     make
 }
 
