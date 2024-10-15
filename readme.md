@@ -12,6 +12,10 @@ This is a command line dictionary(English to Chinese only) using [youdao web](ht
 * libcurl
 * libxml2
 
+### ubuntu
+    apt install libcurl4-gnutls-dev
+    apt install liblzma-dev
+
 `make`
 
 ## install 
