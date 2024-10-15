@@ -17,6 +17,7 @@ This is a command line dictionary(English to Chinese only) using [youdao web](ht
     apt install liblzma-dev
 
 at last:
+
     make
 
 ## install 
