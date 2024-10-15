@@ -3,7 +3,7 @@ This is a command line dictionary(English to Chinese only) using [youdao web](ht
 
 ## usage 
 
-`dic word`
+    dic word
 
 
 ## build
@@ -16,13 +16,15 @@ This is a command line dictionary(English to Chinese only) using [youdao web](ht
     apt install libcurl4-gnutls-dev
     apt install liblzma-dev
 
-`make`
+at last:
+    make
 
 ## install 
 
-`make install `
+    make install 
 
 
 ## uninstall 
 
-`dic_uninstall` and then remove source code file.
+    dic_uninstall 
+and then remove source code file.
