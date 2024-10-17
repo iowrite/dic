@@ -15,12 +15,14 @@ This is a command line dictionary(English to Chinese only) using [youdao web](ht
 ### ubuntu
     apt install libcurl4-openssl-dev libxml2-dev liblzma-dev zlib1g-dev
 
-at last:
-
+### from source
     make
 
 ## install 
 
+### arch linux
+    makepkg -si
+### from source
     make install 
 
 
